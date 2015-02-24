@@ -1,0 +1,354 @@
+import java.awt.AWTException;
+import java.awt.Robot;
+
+float winPercentage01 = 0.9;
+float winPercentage02 = 0.1;
+float winPercentage03 = 0.9;
+float winPercentage04 = 0.1;
+
+int rect1X, rect2X, rect3X, rect4X;     // X Position of square button
+int rectY;      // Y Position of square button
+int rectSize = 120;     // Diameter of rect
+int rectPos;
+int text = 0;
+int id = 0;
+int wins = 0;
+int losses = 0;
+float percent;
+color rect1Color, rect2Color, rect3Color, rect4Color;
+
+boolean rect1Over = false;
+boolean rect2Over = false;
+boolean rect3Over = false;
+boolean rect4Over = false;
+
+boolean rect1Select = false;
+boolean rect2Select = false;
+boolean rect3Select = false;
+boolean rect4Select = false;
+
+boolean win = false;
+float randomNumber;
+
+JSONArray values;
+
+void setup() {
+  //set screen size
+  size(800, 360);
+  //size(displayWidth, displayHeight);
+
+  //set rectangle colors
+  rect1Color = color(110,110,110);
+  rect2Color = color(140,140,140);
+  rect3Color = color(170,170,170);
+  rect4Color = color(200,200,200);
+
+  //set rectangle position 
+  rect1X = width/8-rectSize/2;
+  rect2X = 3*(width/8)-rectSize/2;
+  rect3X = 5*(width/8)-rectSize/2; 
+  rect4X = 7*(width/8)-rectSize/2;
+  
+  rectY = height/2-rectSize/2;
+  
+  values = new JSONArray();
+
+}
+
+void draw() {
+  updateMousePos(mouseX, mouseY);
+  background(80);
+  stroke(255);
+  
+  //DRAW AND COLOR RECTANGLES
+  if (rect1Over) {
+    //draw rect1 full opacity
+    fill(rect1Color, 255);
+    rect(rect1X, rectY, rectSize, rectSize);
+  } else {
+    //draw rect1 half opacity
+    fill(rect1Color,155);
+    rect(rect1X, rectY, rectSize, rectSize);
+  }
+  if (rect2Over) {
+    //draw rect1 full opacity
+    fill(rect2Color, 255);
+    rect(rect2X, rectY, rectSize, rectSize);
+  } else {
+    //draw rect1 half opacity
+    fill(rect2Color,155);
+    rect(rect2X, rectY, rectSize, rectSize);
+  }
+    if (rect3Over) {
+    //draw rect1 full opacity
+    fill(rect3Color, 255);
+    rect(rect3X, rectY, rectSize, rectSize);
+  } else {
+    //draw rect1 half opacity
+    fill(rect3Color,155);
+    rect(rect3X, rectY, rectSize, rectSize);
+  }
+    if (rect4Over) {
+    //draw rect1 full opacity
+    fill(rect4Color, 255);
+    rect(rect4X, rectY, rectSize, rectSize);
+  } else {
+    //draw rect1 half opacity
+    fill(rect4Color,155);
+    rect(rect4X, rectY, rectSize, rectSize);
+  }
+  
+ //SELECT RECTS AND RECORD DATA 
+  if (rect1Select) {
+    if (randomNumber < winPercentage01) {
+      //drawWinner(rect1Color, rect1X);
+      rect1Color = color(50,200,50);
+      rect2Color = color(140,140,140);
+      rect3Color = color(170,170,170);
+      rect4Color = color(200,200,200);
+      win = true;
+      wins +=1;
+      rectPos = rect1X;
+      text = 1;
+    } else {
+        //drawLoser(rect1Color, rect1X);
+        rect1Color = color(200,50,50);
+        rect2Color = color(140,140,140);
+        rect3Color = color(170,170,170);
+        rect4Color = color(200,200,200);
+        win = false;
+        losses +=1;
+        rectPos = rect1X;
+        text = 2;
+    }
+    //save data to JSON
+    saveData(id, win, 1, winPercentage01);
+    id++;
+    randomCursor();
+  }
+  
+  if (rect2Select) {
+    if (randomNumber <winPercentage02) {
+      //drawWinner(rect2Color, rect2X);
+      rect2Color = color(50,200,50);
+      rect1Color = color(110,110,110);
+      rect3Color = color(170,170,170);
+      rect4Color = color(200,200,200);
+      win = true;
+      wins +=1;
+      rectPos = rect2X;
+      text = 1;
+    } else {
+        //drawLoser(rect2Color, rect2X);
+        rect2Color = color(200,50,50);
+        rect1Color = color(110,110,110);
+        rect3Color = color(170,170,170);
+        rect4Color = color(200,200,200);
+        win = false;
+        losses +=1;
+        rectPos = rect2X;
+        text = 2;
+    }
+   //save data to JSON
+    saveData(id, win, 2, winPercentage02);
+    id++;
+    randomCursor();
+  }
+  
+    if (rect3Select) {
+      if (randomNumber <winPercentage03) {
+        //drawWinner(rect3Color, rect3X);
+        rect3Color = color(50,200,50);
+        rect1Color = color(110,110,110);
+        rect2Color = color(140,140,140);
+        rect4Color = color(200,200,200);
+        win = true;
+        wins +=1;
+        rectPos = rect3X;
+        text = 1;
+      } else {
+          //drawLoser(rect3Color, rect3X);
+          rect3Color = color(200,50,50);
+          rect1Color = color(110,110,110);
+          rect2Color = color(140,140,140);
+          rect4Color = color(200,200,200);
+          win = false;
+          losses +=1;
+          rectPos = rect3X;
+          text = 2;
+      }    
+   //save data to JSON
+    saveData(id, win, 3, winPercentage03);
+    id++;
+    randomCursor();
+  }
+  
+  if (rect4Select) {
+    if (randomNumber <winPercentage04) {
+      rectPos = rect4X;
+      rect4Color = color(50,200,50);
+      rect1Color = color(110,110,110);
+      rect2Color = color(140,140,140);
+      rect3Color = color(170,170,170);
+      win = true;
+      wins +=1;
+      text = 1;
+    } else {
+        rectPos = rect4X;
+        rect4Color = color(200,50,50);
+        rect1Color = color(110,110,110);
+        rect2Color = color(140,140,140);
+        rect3Color = color(170,170,170);
+        win = false;
+        losses +=1;
+        text = 2;
+    }
+   //save data to JSON
+    saveData(id, win, 4, winPercentage04);
+    id++;
+    randomCursor();
+  }
+  
+  //TEXT
+  if(text ==1){
+    textSize(40);
+    fill(0);
+    text("WIN", rectPos+18, height/2+17);
+  }
+  if(text ==2){
+    textSize(40);
+    fill(0);
+    text("LOSE", rectPos+12, height/2+17);
+  }
+  
+    fill(0,0,0,155);
+    rect(width/2-150, 8*height/9-40, 300, 60);
+    
+    textSize(30);
+    fill(200);
+    text("TOTAL = $" + String.format("%.2f", (0.05*wins - 0.05*losses)) , width/2-110, 8*height/9);
+  
+  //set these all to false now so that it doesn't repeat those if segments so data is sent ONCE
+    rect1Select = false; 
+    rect2Select = false;
+    rect3Select = false;
+    rect4Select = false;
+  
+  if (id==10){
+    saveJSONArray(values, "data/new.json");
+  }
+}
+
+boolean sketchFullScreen() {
+  return true;
+}
+
+void randomCursor() {
+      try {
+      // These coordinates are screen coordinates
+      int xCoord = displayWidth/2-width/2+(int)random(0,width);
+      int yCoord = displayHeight/2-height/2+(int)random(0,height);
+  
+        // Move the cursor
+        Robot robot = new Robot();
+        robot.mouseMove(xCoord, yCoord);
+    } catch (AWTException e) {
+    }
+}
+
+void saveData(int id, boolean win, int rectNum, float percent) {
+    JSONObject trial = new JSONObject();
+    
+    trial.setInt("id", id);
+    trial.setBoolean("outcome", win);
+    trial.setInt("rectangle", rectNum);
+    trial.setInt("win percentage", int(percent*100));
+    trial.setString("earnings", String.format("%.2f", (0.05*wins - 0.05*losses)));
+    
+    values.setJSONObject(id, trial);
+        
+    println(values);
+  } 
+
+float fixDec(float n, int d) {
+  return Float.parseFloat(String.format("%." + d + "f", n));
+}
+
+void updateMousePos(int x, int y) {
+  if ( overRect(rect1X, rectY, rectSize, rectSize) ) {
+    rect1Over = true;
+  } else {
+    rect1Over = false;
+  }
+  
+  if ( overRect(rect2X, rectY, rectSize, rectSize) ) {
+    rect2Over = true;
+  } else {
+    rect2Over = false;
+  }
+  
+    if ( overRect(rect3X, rectY, rectSize, rectSize) ) {
+    rect3Over = true;
+  } else {
+    rect3Over = false;
+  }
+  
+    if ( overRect(rect4X, rectY, rectSize, rectSize) ) {
+    rect4Over = true;
+  } else {
+    rect4Over = false;
+  }
+}
+
+void mousePressed() {
+
+  if (rect1Over) {
+    rect1Select = true; 
+    rect2Select = false;
+    rect3Select = false;
+    rect4Select = false;
+  }
+   if (rect2Over) {
+    rect1Select = false;
+    rect2Select = true; 
+    rect3Select = false;
+    rect4Select = false;
+  }
+     if (rect3Over) {
+    rect1Select = false;
+    rect2Select = false;
+    rect3Select = true; 
+    rect4Select = false;
+  }
+     if (rect4Over) {
+    rect1Select = false;
+    rect2Select = false;
+    rect3Select = false;
+    rect4Select = true; 
+  }
+  randomNumber = random(0,1);
+  
+}
+
+void drawWinner(color selectedRectColor, int selectedRectX) {
+    selectedRectColor = color(50,200,50); //this is not working
+    textSize(40);
+    fill(0);
+    text("WIN", selectedRectX+18, height/2+17);
+}
+
+void drawLoser(color selectedRectColor, int selectedRectX) {
+    selectedRectColor = color(200,50,50); //this is not working
+    textSize(40);
+    fill(0);
+    text("LOSE", selectedRectX+7, height/2+17);
+}
+
+boolean overRect(int x, int y, int width, int height)  {
+  if (mouseX >= x && mouseX <= x+width && 
+      mouseY >= y && mouseY <= y+height) {
+    return true;
+  } else {
+    return false;
+  }
+}
