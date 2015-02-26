@@ -1,0 +1,72 @@
+[
+  {
+    "earnings": "-0.05",
+    "id": 0,
+    "rectangle": 4,
+    "win percentage": 10,
+    "outcome": false
+  },
+  {
+    "earnings": "0.00",
+    "id": 1,
+    "rectangle": 3,
+    "win percentage": 90,
+    "outcome": true
+  },
+  {
+    "earnings": "0.05",
+    "id": 2,
+    "rectangle": 3,
+    "win percentage": 90,
+    "outcome": true
+  },
+  {
+    "earnings": "0.10",
+    "id": 3,
+    "rectangle": 3,
+    "win percentage": 90,
+    "outcome": true
+  },
+  {
+    "earnings": "0.15",
+    "id": 4,
+    "rectangle": 3,
+    "win percentage": 90,
+    "outcome": true
+  },
+  {
+    "earnings": "0.20",
+    "id": 5,
+    "rectangle": 3,
+    "win percentage": 90,
+    "outcome": true
+  },
+  {
+    "earnings": "0.25",
+    "id": 6,
+    "rectangle": 3,
+    "win percentage": 90,
+    "outcome": true
+  },
+  {
+    "earnings": "0.30",
+    "id": 7,
+    "rectangle": 3,
+    "win percentage": 90,
+    "outcome": true
+  },
+  {
+    "earnings": "0.35",
+    "id": 8,
+    "rectangle": 3,
+    "win percentage": 90,
+    "outcome": true
+  },
+  {
+    "earnings": "0.40",
+    "id": 9,
+    "rectangle": 3,
+    "win percentage": 90,
+    "outcome": true
+  }
+]
