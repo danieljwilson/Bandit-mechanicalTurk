@@ -19,11 +19,13 @@ I tried using the preinstalled version of python on my mac and had issues. This 
 
 ####2. Get PsiTurk Running
   2. Install PsiTurk
+  
    Follow the [directions](http://psiturk.readthedocs.org/en/latest/install.html) on the PsiTurk site. I would agree with their statement that:
 
    >The easiest way to install **psiTurk** is via ``pip``.
    
   2. Set Up Amazon Mechanical Turk 
+  
    There are basically two things you need here.
     * An active account at [Amazon Web Services](http://aws.amazon.com/) (you will need your credit card for this).
     * An active requester account at [Mechanical Turk](https://requester.mturk.com/).
@@ -31,11 +33,13 @@ I tried using the preinstalled version of python on my mac and had issues. This 
    The [directions](http://psiturk.readthedocs.org/en/latest/amt_setup.html) on the PsiTurk site walk you through this.
 
   3. Set up PsiTurk
+  
    Directions are [here](http://psiturk.readthedocs.org/en/latest/psiturk_org_setup.html).
 
    Remember to update the ``~/.psiturkconfig`` file with BOTH your Amazon credentials and your PsiTurk credentials.
 
   4. Run PsiTurk Example
+  
    Now you can run the example. Directions on doing that [here](http://psiturk.org/quick_start/).
    
 
