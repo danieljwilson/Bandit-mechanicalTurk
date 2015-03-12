@@ -19,10 +19,11 @@ I tried using the preinstalled version of python on my mac and had issues. This 
 
 ####2. Install PsiTurk
 
-Follow the [directions](http://psiturk.readthedocs.org/en/latest/install.html) on the PsiTurk site. I would agree with their statement that:
+⋅⋅1. Follow the [directions](http://psiturk.readthedocs.org/en/latest/install.html) on the PsiTurk site. I would agree with their statement that:
 
 >The easiest way to install **psiTurk** is via ``pip``.
 
+Once installed be sure to go through 
 
 ####3. Install [Processing](https://processing.org/)
 
@@ -32,7 +33,8 @@ Follow the [directions](http://psiturk.readthedocs.org/en/latest/install.html) o
 
 In terms of passing information FROM the processing sketch to JavaScript I found [this page](http://processingjs.org/articles/PomaxGuide.html) helpful. Specifically this code:
 
-> function bindJavascript() {
+```javascript
+10      function bindJavascript() {
 11         var pjs = Processing.getInstanceById('mysketch3');
 12         if(pjs!=null) {
 13           pjs.bindJavascript(this);
@@ -45,6 +47,8 @@ In terms of passing information FROM the processing sketch to JavaScript I found
 20         document.getElementById('xcoord').value = x;
 21         document.getElementById('ycoord').value = y;
 22       }
+```
+I just ended up inserting this 
 
 ####4. 
 
