@@ -1,12 +1,13 @@
 # GETTING STARTED WITH PSITURK
 ### My Experience (As a Complete Beginner)
 
-####1. Download [Anaconda](https://store.continuum.io/cshop/anaconda/
-) Python Distribution
+####1. Download Anaconda Python Distribution
 
 This is how they describe it:
 
 >Completely free enterprise-ready Python distribution for large-scale data processing, predictive analytics, and scientific computing
+
+The download link is [here](https://store.continuum.io/cshop/anaconda/).
 
 I tried using the preinstalled version of python on my mac and had issues. This installation seemed to solve that.
 
@@ -15,6 +16,8 @@ I tried using the preinstalled version of python on my mac and had issues. This 
 Follow the [directions](http://psiturk.readthedocs.org/en/latest/install.html) on the PsiTurk site.
 
 *Note that you will need to have already installed [Xcode](https://developer.apple.com/xcode/).
+
+####3. Install [Processing](https://processing.org/)
 
 *This text will be italic*
 **This text will be bold**
