@@ -1,8 +1,10 @@
 # GETTING STARTED WITH PSITURK
-## My Experience
-###### As a Complete Beginner...
+### My Experience (As a Complete Beginner)
 
-In the words of Abraham Lincoln:
+1. Download [Anaconda](https://store.continuum.io/cshop/anaconda/
+) Python Distribution
+Free, and as they put it:
+>Completely free enterprise-ready Python distribution for large-scale data processing, predictive analytics, and scientific computing
 
 > Pardon my french
 
