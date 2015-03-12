@@ -979,3 +979,327 @@ TemplateNotFound: Krungthep.ttf
 2015-03-10 16:14:23,764 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
 2015-03-10 16:14:23,775 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
 2015-03-10 16:14:23,785 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-10 16:47:06,806 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-10 16:47:07,083 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-10 16:47:07,374 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-10 16:47:07,455 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-10 16:47:07,523 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-10 16:47:07,566 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-10 16:47:07,593 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-10 16:47:07,597 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-10 16:47:07,608 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-10 17:59:47 -0400] [8161] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+[2015-03-10 17:59:47 -0400] [8159] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+[2015-03-10 17:59:47 -0400] [8165] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+[2015-03-10 17:59:47 -0400] [8158] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+[2015-03-10 17:59:47 -0400] [8163] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+[2015-03-10 17:59:47 -0400] [8164] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+[2015-03-10 17:59:47 -0400] [8160] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+[2015-03-10 17:59:47 -0400] [8162] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+[2015-03-10 17:59:47 -0400] [8166] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 71, in <module>
+    from custom import custom_code
+  File "/Users/djw/GitHub/Bandit-mechanicalTurk/psiturk-bandit/custom.py", line 90
+    bonus = trial['payout']
+    ^
+IndentationError: unexpected indent

@@ -82,13 +82,13 @@ def compute_bonus():
                filter(Participant.uniqueid == uniqueId).\
                one()
         user_data = loads(user.datastring) # load datastring from JSON
-        bonus = 0
 
         for record in user_data['data']: # for line in data file
             trial = record['trialdata']
-            if trial['phase']=='TEST':
-                if trial['hit']==True:
-                    bonus += 0.02
+
+            # only want the score from the last trial (do this in exp.html)
+                bonus = trial['payout']
+
         user.bonus = bonus
         db_session.add(user)
         db_session.commit()
