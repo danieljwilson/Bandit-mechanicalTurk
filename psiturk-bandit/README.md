@@ -28,6 +28,24 @@ Follow the [directions](http://psiturk.readthedocs.org/en/latest/install.html) o
 
 **Note**: This is required to adapt this particular bandit experiment, as I built it in Processing since my JavaScript skills don't exist (yet). Processing can publish to Javascript, but it definitely makes implementing the project with PsiTurk more cumbersome. If you can work in Javascript, do that.
 
+[Here](http://processingjs.org/articles/jsQuickStart.html) is some info specifically on working with Processing and JavaScript.
+
+In terms of passing information FROM the processing sketch to JavaScript I found [this page](http://processingjs.org/articles/PomaxGuide.html) helpful. Specifically this code:
+
+> function bindJavascript() {
+11         var pjs = Processing.getInstanceById('mysketch3');
+12         if(pjs!=null) {
+13           pjs.bindJavascript(this);
+14           bound = true; }
+15         if(!bound) setTimeout(bindJavascript, 250);
+16       }
+17       bindJavascript();
+18 
+19       function showXYCoordinates(x, y) {
+20         document.getElementById('xcoord').value = x;
+21         document.getElementById('ycoord').value = y;
+22       }
+
 ####4. 
 
 
