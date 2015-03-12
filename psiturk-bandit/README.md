@@ -18,11 +18,11 @@ I tried using the preinstalled version of python on my mac and had issues. This 
 
 
 ####2. Install PsiTurk
-⋅⋅2. Follow the [directions](http://psiturk.readthedocs.org/en/latest/install.html) on the PsiTurk site. I would agree with their statement that:
+  2. Follow the [directions](http://psiturk.readthedocs.org/en/latest/install.html) on the PsiTurk site. I would agree with their statement that:
 
->The easiest way to install **psiTurk** is via ``pip``.
+   >The easiest way to install **psiTurk** is via ``pip``.
 
-Once installed be sure to go through 
+   Once installed be sure to go through 
 
 ####3. Install [Processing](https://processing.org/)
 
