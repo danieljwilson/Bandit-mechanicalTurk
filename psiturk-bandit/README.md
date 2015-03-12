@@ -64,14 +64,19 @@ In terms of passing information FROM the processing sketch to JavaScript I found
 ```
 I just ended up inserting this into a **script** tag in the **exp.html** file.
 
+Also to note is that you will want to put the contents of the webexport folder
+!(http://tinypic.com?ref=wso684)
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+
 ####4. Create Database
 
 I experienced a minor nightmare moving from SQLite (which is the default database) to MySQL. However following [these installation instructions](http://blog.brigitte-jellinek.at/2014/10/setting-up-python-mysql-on-mac/) seemed to (mostly) fix things.
 
 The remaining error I got after this was related to the files ``libssl.1.0.0.dylib`` and ``libcrypto.1.0.0.dylib``. Finally I found some info on what to do [here](http://mithun.co/hacks/library-not-loaded-libcrypto-1-0-0-dylib-issue-in-mac/). I couldn't get the command line prompts to work for some reason but just copied the new files to the filepath where they were missing (as per the error message).
 
-**Everyone _must_ attend the meeting at 5 o'clock today.**
+####5. Test Experiment
 
-
-On July 3, the Black Knights, a squadron of Marine Corps F/A-18 Hornets, participated in an assault on a destroyer near the city of Los Angeles.
+About to do this, will update once complete.
 
