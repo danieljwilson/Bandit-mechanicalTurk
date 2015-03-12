@@ -22,12 +22,22 @@ I tried using the preinstalled version of python on my mac and had issues. This 
    Follow the [directions](http://psiturk.readthedocs.org/en/latest/install.html) on the PsiTurk site. I would agree with their statement that:
 
    >The easiest way to install **psiTurk** is via ``pip``.
+   
   2. Set Up Amazon Mechanical Turk 
    There are basically two things you need here.
     * An active account at [Amazon Web Services](http://aws.amazon.com/) (you will need your credit card for this).
     * An active requester account at [Mechanical Turk](https://requester.mturk.com/).
    
    The [directions](http://psiturk.readthedocs.org/en/latest/amt_setup.html) on the PsiTurk site walk you through this.
+
+  3. Set up PsiTurk
+   Directions are [here](http://psiturk.readthedocs.org/en/latest/psiturk_org_setup.html).
+
+   Remember to update the ``~/.psiturkconfig`` file with BOTH your Amazon credentials and your PsiTurk credentials.
+
+  4. Run PsiTurk Example
+   Now you can run the example. Directions on doing that [here](http://psiturk.org/quick_start/).
+   
 
 ####3. Install [Processing](https://processing.org/)
 
@@ -52,13 +62,13 @@ In terms of passing information FROM the processing sketch to JavaScript I found
 21         document.getElementById('ycoord').value = y;
 22       }
 ```
-I just ended up inserting this into a **<script>** tag in the **exp.html** file.
+I just ended up inserting this into a **script** tag in the **exp.html** file.
 
-####4. 
+####4. Create Database
 
+I experienced a minor nightmare moving from SQLite (which is the default database) to MySQL. However following [these installation instructions](http://blog.brigitte-jellinek.at/2014/10/setting-up-python-mysql-on-mac/) seemed to (mostly) fix things.
 
-*This text will be italic*
-**This text will be bold**
+The remaining error I got after this was related to the files ``libssl.1.0.0.dylib`` and ``libcrypto.1.0.0.dylib``. Finally I found some info on what to do [here](http://mithun.co/hacks/library-not-loaded-libcrypto-1-0-0-dylib-issue-in-mac/). I couldn't get the command line prompts to work for some reason but just copied the new files to the filepath where they were missing (as per the error message).
 
 **Everyone _must_ attend the meeting at 5 o'clock today.**
 
