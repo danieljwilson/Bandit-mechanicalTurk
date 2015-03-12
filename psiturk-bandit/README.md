@@ -52,7 +52,7 @@ In terms of passing information FROM the processing sketch to JavaScript I found
 21         document.getElementById('ycoord').value = y;
 22       }
 ```
-I just ended up inserting this into a <script> tag in the **exp.html** file.
+I just ended up inserting this into a **<script>** tag in the **exp.html** file.
 
 ####4. 
 
