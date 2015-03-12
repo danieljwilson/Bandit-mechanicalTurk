@@ -17,12 +17,16 @@ The download link is [here](https://store.continuum.io/cshop/anaconda/).
 I tried using the preinstalled version of python on my mac and had issues. This installation seemed to solve that.
 
 
-####2. Install PsiTurk
-  2. Follow the [directions](http://psiturk.readthedocs.org/en/latest/install.html) on the PsiTurk site. I would agree with their statement that:
+####2. Get PsiTurk Running
+  2. Install PsiTurk
+   Follow the [directions](http://psiturk.readthedocs.org/en/latest/install.html) on the PsiTurk site. I would agree with their statement that:
 
    >The easiest way to install **psiTurk** is via ``pip``.
-
-   Once installed be sure to go through 
+  2. Set Up Amazon Mechanical Turk 
+   There are basically two things you need here.
+    * An active account at [Amazon Web Services](http://aws.amazon.com/) (you will need your credit card for this).
+    * An active requester account at [Mechanical Turk](https://requester.mturk.com/).
+   The [directions](http://psiturk.readthedocs.org/en/latest/amt_setup.html) on the PsiTurk site walk you through this.
 
 ####3. Install [Processing](https://processing.org/)
 
