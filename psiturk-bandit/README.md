@@ -26,6 +26,7 @@ I tried using the preinstalled version of python on my mac and had issues. This 
    There are basically two things you need here.
     * An active account at [Amazon Web Services](http://aws.amazon.com/) (you will need your credit card for this).
     * An active requester account at [Mechanical Turk](https://requester.mturk.com/).
+   
    The [directions](http://psiturk.readthedocs.org/en/latest/amt_setup.html) on the PsiTurk site walk you through this.
 
 ####3. Install [Processing](https://processing.org/)
@@ -51,7 +52,7 @@ In terms of passing information FROM the processing sketch to JavaScript I found
 21         document.getElementById('ycoord').value = y;
 22       }
 ```
-I just ended up inserting this 
+I just ended up inserting this into a <script> tag in the **exp.html** file.
 
 ####4. 
 
