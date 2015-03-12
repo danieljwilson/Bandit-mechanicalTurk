@@ -65,7 +65,9 @@ In terms of passing information FROM the processing sketch to JavaScript I found
 I just ended up inserting this into a **script** tag in the **exp.html** file.
 
 Also to note is that you will want to put the contents of the webexport folder (see image)
+
 ![alt text](http://s15.postimg.org/gmk7d0rm3/Screen_Shot_2015_03_12_at_3_26_50_PM.png "Processing Files")
+
 into your project's **static>js** filepath
 
 ####4. Create Database
