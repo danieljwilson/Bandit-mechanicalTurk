@@ -1,7 +1,6 @@
-# The largest heading
-## The second largest heading
-…
-###### The 6th largest heading
+# GETTING STARTED WITH PSITURK
+## My Experience
+###### As a Complete Beginner...
 
 In the words of Abraham Lincoln:
 
