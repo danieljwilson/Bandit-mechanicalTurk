@@ -74,6 +74,8 @@ Also to note is that you will want to put the contents of the Processing ``web-e
 
 into your PsiTurk's project's **static>js** filepath. 
 
+![alt text](http://s13.postimg.org/pjrywcbs7/Screen_Shot_2015_03_12_at_3_41_11_PM.png "PsiTurk Files")
+
 You will also need to steal some code from the ``index.html`` file in the Processing ``web-export`` folder to insert into the ``exp.html`` file in your PsiTurk project to pull the Processing sketch in.
 
 ####4. Create Database
