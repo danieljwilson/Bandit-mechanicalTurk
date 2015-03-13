@@ -32,8 +32,16 @@
 		<script src="/static/js/utils.js" type="text/javascript"> </script>
 		<script src="/static/js/psiturk.js" type="text/javascript"> </script>
 
-
-
+		<!-- - - - - - - - - - - - - - - - - - - - - 
+		+	This is where some processing styling code is inserted
+		+	This may not be necessary - I just took it from the web-export folder index.html page
+		+
+		+    Wondering how this works? 
+		+
+		+    Go to: http://processing.org/
+		+    and: http://processingjs.org/
+		+
+		+ - - - - - - - - - - - - - - - - - - - - -->
 
     <style type="text/css">
 	body {
@@ -72,6 +80,12 @@
 			for most purposes this is where you want to focus debugging, development, etc...
 		-->
 
+		<!-- - - - - - - - - - - - - - - - - - - - - 
+		+	The above statement is generally true, but not in this case
+		+	Since we are using Processing task.js has been replaced by processing.js
+		+
+		+ - - - - - - - - - - - - - - - - - - - - -->
+
 		<!--[if lt IE 9]>
 			<script type="text/javascript">alert("Your browser does not support the canvas tag.");</script>
 		<![endif]-->
@@ -82,14 +96,20 @@
 
 		</script>
 
+		<!-- - - - - - - - - - - - - - - - - - - - - 
+		+	Everything in the script tag below is not NORMALLY in the exp.html file. Most lives in the task.js file.
+		+	Since we are using the processing sketch instead this has been moved here so that we can use psiturk functions (like save data) which interact with the Processing sketch inputs.
+		+
+		+ - - - - - - - - - - - - - - - - - - - - -->
+
 <script type="text/javascript">
 var psiTurk = new PsiTurk(uniqueId, adServerLoc, mode);
 
 var mycondition = condition;  // these two variables are passed by the psiturk server process
 var mycounterbalance = counterbalance;  // they tell you which condition you have been assigned to
-// they are not used in the stroop code but may be useful to you
+// they are not used in the stroop code [OR THIS CODE] but may be useful to you
 
-// All pages to be loaded
+// All pages to be loaded [ALSO NOT BEING USED EXCEPT FOR DEBRIEFING]
 var pages = [
 	"instructions/instruct-1.html",
 	"instructions/instruct-2.html",
@@ -102,7 +122,8 @@ var pages = [
 
 psiTurk.preloadPages(pages);
 
-var instructionPages = [ // add as a list as many pages as you like
+// add as a list as many pages as you like [NOT BEING USED RIGHT NOW, DIRECTIONS CONTAINED IN PROCESSING SKETCH PROCESS]
+var instructionPages = [ 
 	"instructions/instruct-1.html",
 	"instructions/instruct-2.html",
 	"instructions/instruct-3.html",
@@ -122,15 +143,20 @@ var timestamp;
 			if(!bound) setTimeout(bindJavascript, 250);
 			    }
 				bindJavascript();
-			 			 
+
+			//Here are the variable we are collecting from Processing 			 
 			function recordData(trial, win, wins, losses, money, rectangle) {
 
+				//Now we use record responses to implement the psiturk.recordTrialData function
 			    record_responses(trial, win, wins, losses, money, rectangle);
 
 			    //decide on how many trials before ending
 			    if (trial==10){
+			    	//Then save the data
 			    	psiTurk.saveData();
+			    	//Then compute the bonus [this is NOT working yet]
 			    	psiTurk.computeBonus('compute_bonus');
+			    	//Then finish which loads the debriefing page
 			    	finish();
 			    	}
 			    }
@@ -163,7 +189,7 @@ var endExperiment = function() {
 			error: prompt_resubmit
 		});
 	};
-	// Load the questionnaire snippet 
+	// Load the debriefing page 
 	psiTurk.showPage('debriefing.html');
 
 	//code for bonus??
@@ -184,7 +210,6 @@ var endExperiment = function() {
 /////////////////////////////////////////////////
 //////// RECORD DATA FUNCTION////////////////////
 /////////////////////////////////////////////////
-	//what is callback doing in Jonathan's example?
 
 	function record_responses(trial, win, wins, losses, money, rectangle) {
 
@@ -195,7 +220,8 @@ var endExperiment = function() {
 			"losses": losses,
 			"payout": money,
 			"rectangle": rectangle
-			//list win percentages for each rectangle
+			//list win percentages for each rectangle?
+			//Other data parameters to save?
         });
         //use the window alert below if you want to test what is being written to any given value
 		//window.alert("Trial #" + trial + "  Amount: " + money);
@@ -210,7 +236,7 @@ var endExperiment = function() {
 	<body>
 		<div id="content">
 			<div>
-				<!--This is where it grabs teh processing sketch. Can also determine the size of the window here (related to the size of the sketch window too)-->
+				<!--This is where it grabs the processing sketch. Can also determine the size of the window here (related to the size of the sketch window too)-->
 				<canvas id="BANDIT03PsiTurk" data-processing-sources="/static/js/BANDIT03_PsiTurk.pde" 
 						width="800" height="360">
 					

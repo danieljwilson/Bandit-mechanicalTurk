@@ -1,18 +1,20 @@
+/////////////////////////////////////////////////
+//////SET WIN PERCENTAGES FOR EACH RECTANGLE/////
+/////////////////////////////////////////////////
+
 float winPercentage01 = 0.9;
 float winPercentage02 = 0.1;
 float winPercentage03 = 0.9;
 float winPercentage04 = 0.1;
 
 int rect1X, rect2X, rect3X, rect4X;     // X Position of square button
-int rectY;      // Y Position of square button
-int rectSize = 120;     // Diameter of rect
-int rectPos;
-int textNum = 0;
+int rectY;                              // Y Position of square button
+int rectSize = 120;                     // Diameter of rectangle
 
 //for stepping through the instructions at the beginning
 int page = -1;
 
-float percent;
+//Rectangle Color Variables
 color rect1Color, rect2Color, rect3Color, rect4Color;
 
 boolean rect1Over = false;
@@ -26,7 +28,10 @@ boolean rect3Select = false;
 boolean rect4Select = false;
 
 boolean nextTrial = false;
+
 float randomNumber;
+int rectPos;
+int textNum = 0;
 
 //recorded data variables
 float money = 0;
@@ -36,6 +41,7 @@ int losses = 0;
 int rectangle = 1;
 boolean win = false;
 
+//JavaScript connector
 interface JavaScript {
   void recordData(int x, int y);
 }
@@ -46,18 +52,14 @@ void bindJavascript(JavaScript js) {
   
 JavaScript javascript;
 
-
+/////////////////////////////////////////////////
+//////SETUP/////
+/////////////////////////////////////////////////
 
 void setup() {
 
- // textFont(createFont("Krungthep",20));
-
-
   //set screen size
   size(800, 360);
-  //size(displayWidth, displayHeight);
-
-  textLeading(18);
 
   //set rectangle colors
   rect1Color = color(110,110,110);
@@ -71,24 +73,28 @@ void setup() {
   rect3X = 5*(width/8)-rectSize/2; 
   rect4X = 7*(width/8)-rectSize/2;
   
-  rectY = height/2-rectSize/2;
-  
+  rectY = height/2-rectSize/2; 
 
 }
 
 void draw() {
-  //updateMousePos(mouseX, mouseY);
+  //Background color and stroke color
   background(80);
   stroke(255);
+
+  //each time through set a different random value between 0 and 1
   randomNumber = random(0,1);
 
   //Start
   if (page==-1){
 
+    //ADD INSTRUCTIONS HERE
+    ///////////////////////
 
     textSize(30);
     fill(255);
     text("Welcome to NAME OF EXPERIMENT", 50, 50);
+
     textSize(18)
     text("Explanation of experiment and how you win/lose money...", 50, 80);
     text("Please click anywhere in the gray area to practice the process.", 50, 120);
@@ -99,8 +105,8 @@ void draw() {
   
   }
   
-  //DRAW AND COLOR RECTANGLES
-if (page>=0){
+  //DRAW AND COLOR RECTANGLES (every time other than on page -1)
+  if (page>=0){
     fill(rect1Color, 255);
     rect(rect1X, rectY, rectSize, rectSize);
   
@@ -114,12 +120,12 @@ if (page>=0){
     rect(rect4X, rectY, rectSize, rectSize);
     }
 
-if (page==0) {
+  if (page==0) {
 
     textSize(40);
+    
     fill(0);
     text("1", rect1X+45, height/2+17);
-
         
     fill(0,0,0,155);
     rect(width/2-240, 20, 480, 35);
