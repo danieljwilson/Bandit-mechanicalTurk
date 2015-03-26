@@ -1,4 +1,3 @@
-# V2 of BANDIT EXPERIMENT
-### TWO BANDITS, COLOR/BW
+### Four Bandits, Separated by Pairs
 
 
