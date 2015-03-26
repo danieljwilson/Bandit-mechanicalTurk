@@ -1,0 +1,64 @@
+<!doctype html>
+<!--
+  The consent.html displays the text of your IRB-approved
+  consent form.  Even if you are not required to provide
+  a consent form, it is helpful to use this form to
+  describe what people can do if an error comes up, etc...
+
+-->
+
+
+
+<html>
+    <head>
+        <title>Psychology Experiment - Debriefing Form</title>
+        <link rel=stylesheet href="/static/css/bootstrap.min.css" type="text/css">
+        <link rel=stylesheet href="/static/css/style.css" type="text/css">
+    </head>
+    <body>
+        <div id="container-debrief">
+            <div id="debrief">
+
+                <h1>Debriefing</h1>
+
+                <div id="debriefingtext">
+                    <p>Thank you for your participation in this study!</p>
+
+                    <p>
+                        This experiment is only being used for testing purposes.
+                        This testing will help us develop a better understanding of how we can collect information from Mechanical Turk.
+
+                        Again, please note, there is no Bonus being paid for this experiment - just the HIT fee.
+                    </p>
+
+                    <p>
+                        If you have any questions about this experiment you can contact Daniel Wilson at <a href="mailto:danieljwilson@gmail.com">danieljwilson@gmail.com</a>
+                    </p>
+                </div>
+
+                <button type="button" class="btn btn-default btn-sm" onClick="window.print();">
+                <span class="glyphicon glyphicon-print"></span> Print a copy of this
+                </button>
+
+                <br/>
+
+                <h3 class="cool">Do you agree to the following statement?</h3>
+                <p>I feel that I have been adequately debriefed about the nature
+                    of the study.</p>
+
+                <button type="button" height=48, width=200, class="btn btn-primary btn-lg" onClick="javascript:document.forms['accept'].submit(); psiTurk.completeHIT();">Yes, I agree </button>
+                <button type="button" height=48, width=200, class="btn btn-default btn-xs" onClick="javascript:document.forms['decine'].submit(); psiTurk.completeHIT();">No, please withhold my data. <br/> I will contact the experimenter with questions.</button>
+
+                <form id="accept" action="complete" method="post">
+                    <input type="hidden" name="uniqueid" value="{{ uniqueId }}" />
+                    <input type="hidden" name="agree" value="true" />
+                </form>
+                <form id="decline" action="complete" method="post">
+                    <input type="hidden" name="uniqueid" value="{{ uniqueId }}" />
+                    <input type="hidden" name="agree" value="false" />
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+

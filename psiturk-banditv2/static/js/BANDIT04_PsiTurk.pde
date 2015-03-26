@@ -9,7 +9,7 @@ float winPercentage04 = 0.1;
 
 int rect1X, rect2X, rect3X, rect4X;     // X Position of square button
 int rectY;                              // Y Position of square button
-int rectSize = 120;                     // Diameter of rectangle
+int rectSize = 100;                     // Diameter of rectangle
 
 //for stepping through the instructions at the beginning
 int page = -1;
@@ -68,10 +68,10 @@ void setup() {
   rect4Color = color(200,200,200);
 
   //set rectangle position 
-  rect1X = width/8-rectSize/2;
-  rect2X = 3*(width/8)-rectSize/2;
-  rect3X = 5*(width/8)-rectSize/2; 
-  rect4X = 7*(width/8)-rectSize/2;
+  rect1X = width/10-rectSize/2;
+  rect2X = 3*(width/10)-rectSize/2;
+  rect3X = 7*(width/10)-rectSize/2; 
+  rect4X = 9*(width/10)-rectSize/2;
   
   rectY = height/2-rectSize/2; 
 
@@ -79,8 +79,8 @@ void setup() {
 
 void draw() {
   //Background color and stroke color
-  background(80);
-  stroke(255);
+  background(255);
+  stroke(0);
 
   //each time through set a different random value between 0 and 1
   randomNumber = random(0,1);
@@ -92,12 +92,14 @@ void draw() {
     ///////////////////////
 
     textSize(30);
-    fill(255);
-    text("Welcome to NAME OF EXPERIMENT", 50, 50);
+    fill(0);
+    text("Welcome to TEST EXPERIMENT", 50, 50);
 
-    textSize(18)
-    text("Explanation of experiment and how you win/lose money...", 50, 80);
-    text("Please click anywhere in the gray area to practice the process.", 50, 120);
+    textSize(18);
+    text("You will use the number keys to select a box", 50, 90);
+    text("You will be informed as to whether you 'won' or 'lost'", 50, 120); 
+    text("Ignore the money amount indicated on the bottom of the screen, it is NOT relevant", 50,150)
+    text("Please click anywhere in the white area to practice the process.", 50, 200);
 
     if(mousePressed){
       page+=1;
@@ -122,7 +124,7 @@ void draw() {
 
   if (page==0) {
 
-    textSize(40);
+    textSize(32);
     
     fill(0);
     text("1", rect1X+45, height/2+17);
@@ -147,7 +149,7 @@ void draw() {
     }
 }
 if (page == 1) {
-    textSize(40);
+    textSize(32);
     fill(0);
     text("2", rect2X+45, height/2+17);
         
@@ -170,7 +172,7 @@ if (page == 1) {
       }
 }
 if (page ==2) {
-     textSize(40);
+     textSize(32);
     fill(0);
     text("3", rect3X+45, height/2+17);
         
@@ -194,7 +196,7 @@ if (page ==2) {
       }
 }
 if (page ==3) {
-    textSize(40);
+    textSize(32);
     fill(0);
     text("4", rect4X+45, height/2+17);
         
@@ -332,6 +334,8 @@ if (page ==5){
       fill(0,0,0,155);
       rect(width/2-150, 8*height/9-40, 300, 60);
       
+    //money = (0.05*wins - 0.05*losses);
+    //FOR JS VERSION  
       money = (0.05*wins - 0.05*losses).toFixed(2);
 
       textSize(30);
@@ -340,12 +344,12 @@ if (page ==5){
     
      if(nextTrial) {
          if(textNum ==1){
-          textSize(40);
+          textSize(32);
           fill(0);
           text("WIN", rectPos+18, height/2+17);
           }
           if(textNum ==2){
-            textSize(40);
+            textSize(32);
             fill(0);
             text("LOSE", rectPos+12, height/2+17);
           }
@@ -360,9 +364,11 @@ if (page ==5){
           //record data HERE
           nextTrial = false;
 
+//FOR JAVASCRIPT VERSION 
             if(javascript!=null){
               javascript.recordData(trial, win, wins, losses, money, rectangle);
             }
+            
           
           rect1Color = color(110,110,110);
           rect2Color = color(140,140,140);
@@ -382,3 +388,5 @@ boolean sketchFullScreen() {
 float fixDec(float n, int d) {
   return Float.parseFloat(String.format("%." + d + "f", n));
 }
+
+

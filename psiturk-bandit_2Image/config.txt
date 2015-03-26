@@ -13,7 +13,7 @@ browser_exclude_rule = MSIE, mobile, tablet
 
 [Database Parameters]
 database_url = mysql://djw:dapper@localhost:3306/testdb
-table_name = turkdemo04
+table_name = imageBanditData01
 
 [Server Parameters]
 host = 0.0.0.0
