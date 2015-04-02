@@ -4328,3 +4328,1359 @@ Traceback (most recent call last):
   File "/Users/djw/anaconda/lib/python2.7/site-packages/flask/templating.py", line 64, in get_source
     raise TemplateNotFound(template)
 TemplateNotFound: BWimage4.jpg
+[2015-03-26 18:12:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:38944)
+[2015-03-26 18:12:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:38945)
+[2015-03-26 18:12:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:38946)
+[2015-03-26 18:12:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:38947)
+[2015-03-26 18:12:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:38948)
+[2015-03-26 18:12:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:38949)
+[2015-03-26 18:12:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:38950)
+[2015-03-26 18:12:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:38942)
+[2015-03-26 18:12:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:38943)
+2015-03-26 18:12:10,462 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:12:10,470 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:12:10,473 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:12:10,490 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:12:10,490 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:12:10,507 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:12:10,508 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:12:10,509 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:12:10,524 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-26 18:29:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39559)
+[2015-03-26 18:29:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39560)
+[2015-03-26 18:29:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39561)
+[2015-03-26 18:29:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39563)
+[2015-03-26 18:29:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39565)
+[2015-03-26 18:29:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39558)
+[2015-03-26 18:29:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39567)
+[2015-03-26 18:29:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39557)
+[2015-03-26 18:29:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39566)
+2015-03-26 18:29:55,584 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:29:55,594 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:29:55,599 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:29:55,638 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:29:55,639 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:29:55,674 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:29:55,722 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:29:55,733 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:29:55,753 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-26 18:48:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39684)
+[2015-03-26 18:48:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39685)
+[2015-03-26 18:48:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39686)
+[2015-03-26 18:48:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39687)
+[2015-03-26 18:48:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39688)
+[2015-03-26 18:48:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39689)
+[2015-03-26 18:48:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39690)
+[2015-03-26 18:48:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39691)
+[2015-03-26 18:48:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39692)
+2015-03-26 18:48:44,494 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:48:44,494 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:48:44,496 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:48:44,522 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:48:44,524 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:48:44,524 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:48:44,528 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:48:44,593 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 18:48:44,613 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-26 20:13:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39840)
+[2015-03-26 20:13:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39841)
+[2015-03-26 20:13:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39833)
+[2015-03-26 20:13:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39834)
+[2015-03-26 20:13:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39835)
+[2015-03-26 20:13:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39836)
+[2015-03-26 20:13:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39837)
+[2015-03-26 20:13:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39838)
+[2015-03-26 20:13:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:39839)
+2015-03-26 20:13:19,510 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 20:13:19,510 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 20:13:19,510 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 20:13:19,517 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 20:13:19,518 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 20:13:19,549 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 20:13:19,552 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 20:13:19,574 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 20:13:19,605 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-26 23:18:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40034)
+[2015-03-26 23:18:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40035)
+[2015-03-26 23:18:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40036)
+[2015-03-26 23:18:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40037)
+[2015-03-26 23:18:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40038)
+[2015-03-26 23:18:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40039)
+[2015-03-26 23:18:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40040)
+[2015-03-26 23:18:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40041)
+[2015-03-26 23:18:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40042)
+2015-03-26 23:18:46,323 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 23:18:46,324 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 23:18:46,335 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 23:18:46,366 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 23:18:46,376 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 23:18:46,406 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 23:18:46,425 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 23:18:46,426 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-26 23:18:46,461 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-27 10:16:24 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40075)
+2015-03-27 10:16:27,683 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-27 12:32:47 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40083)
+[2015-03-27 12:32:47 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40092)
+2015-03-27 12:32:49,331 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 12:32:49,336 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-27 13:11:45 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40076)
+[2015-03-27 13:11:45 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40077)
+[2015-03-27 13:11:45 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40078)
+[2015-03-27 13:11:45 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40079)
+[2015-03-27 13:11:45 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40080)
+[2015-03-27 13:11:45 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40081)
+[2015-03-27 13:11:45 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40082)
+[2015-03-27 13:11:45 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40295)
+[2015-03-27 13:11:45 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40296)
+2015-03-27 13:11:47,910 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:11:47,910 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:11:47,910 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:11:47,912 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:11:47,936 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:11:47,937 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:11:47,951 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:11:47,951 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:11:47,982 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-27 13:24:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40771)
+[2015-03-27 13:24:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40772)
+[2015-03-27 13:24:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40773)
+[2015-03-27 13:24:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40774)
+[2015-03-27 13:24:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40775)
+[2015-03-27 13:24:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40776)
+[2015-03-27 13:24:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40777)
+[2015-03-27 13:24:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40778)
+[2015-03-27 13:24:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40779)
+2015-03-27 13:24:22,181 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:24:22,228 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:24:22,398 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:24:22,422 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:24:22,453 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:24:22,462 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:24:22,481 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:24:22,491 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 13:24:22,523 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-27 15:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40811)
+[2015-03-27 15:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40812)
+[2015-03-27 15:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40813)
+[2015-03-27 15:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40814)
+[2015-03-27 15:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40815)
+[2015-03-27 15:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40816)
+[2015-03-27 15:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40817)
+[2015-03-27 15:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40818)
+[2015-03-27 15:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:40819)
+2015-03-27 15:23:33,333 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 15:23:33,333 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 15:23:33,333 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 15:23:33,334 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 15:23:33,339 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 15:23:33,339 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 15:23:33,343 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 15:23:33,347 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 15:23:33,387 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-27 16:51:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41089)
+[2015-03-27 16:51:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41090)
+[2015-03-27 16:51:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41091)
+[2015-03-27 16:51:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41092)
+[2015-03-27 16:51:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41093)
+[2015-03-27 16:51:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41094)
+[2015-03-27 16:51:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41095)
+[2015-03-27 16:51:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41096)
+[2015-03-27 16:51:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41097)
+2015-03-27 16:51:10,750 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 16:51:10,751 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 16:51:10,752 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 16:51:10,753 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 16:51:10,758 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 16:51:10,800 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 16:51:10,824 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 16:51:10,842 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 16:51:10,863 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-27 18:05:35 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41280)
+[2015-03-27 18:05:35 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41281)
+[2015-03-27 18:05:35 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41272)
+[2015-03-27 18:05:35 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41273)
+[2015-03-27 18:05:35 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41275)
+[2015-03-27 18:05:35 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41276)
+[2015-03-27 18:05:35 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41277)
+[2015-03-27 18:05:35 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41278)
+[2015-03-27 18:05:35 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41279)
+2015-03-27 18:05:39,545 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:05:39,545 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:05:39,590 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:05:39,632 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:05:39,643 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:05:39,644 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:05:39,656 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:05:39,669 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:05:39,710 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-27 18:07:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41294)
+[2015-03-27 18:07:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41295)
+[2015-03-27 18:07:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41296)
+[2015-03-27 18:07:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41297)
+[2015-03-27 18:07:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41298)
+[2015-03-27 18:07:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41299)
+[2015-03-27 18:07:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41301)
+[2015-03-27 18:07:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41302)
+[2015-03-27 18:07:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41303)
+2015-03-27 18:07:57,150 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:07:57,173 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:07:57,181 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:07:57,205 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:07:57,205 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:07:57,239 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:07:57,247 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:07:57,273 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:07:57,274 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-27 18:38:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41327)
+[2015-03-27 18:38:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41328)
+[2015-03-27 18:38:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41329)
+[2015-03-27 18:38:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41330)
+[2015-03-27 18:38:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41331)
+[2015-03-27 18:38:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41332)
+[2015-03-27 18:38:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41333)
+[2015-03-27 18:38:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41334)
+[2015-03-27 18:38:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41335)
+2015-03-27 18:38:43,763 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:38:43,763 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:38:43,835 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:38:43,864 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:38:43,886 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:38:43,915 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:38:43,915 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:38:43,953 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 18:38:43,986 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-27 19:22:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41392)
+[2015-03-27 19:22:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41393)
+[2015-03-27 19:22:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41394)
+[2015-03-27 19:22:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41395)
+[2015-03-27 19:22:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41396)
+[2015-03-27 19:22:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41397)
+[2015-03-27 19:22:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41398)
+[2015-03-27 19:22:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41399)
+[2015-03-27 19:22:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41400)
+2015-03-27 19:22:23,510 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:22:23,512 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:22:23,514 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:22:23,555 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:22:23,563 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:22:23,596 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:22:23,617 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:22:23,659 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:22:23,665 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-27 19:39:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41509)
+[2015-03-27 19:39:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41510)
+[2015-03-27 19:39:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41511)
+[2015-03-27 19:39:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41512)
+[2015-03-27 19:39:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41513)
+[2015-03-27 19:39:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41514)
+[2015-03-27 19:39:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41515)
+[2015-03-27 19:39:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41516)
+[2015-03-27 19:39:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41517)
+2015-03-27 19:39:59,220 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:39:59,294 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:39:59,317 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:39:59,340 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:39:59,369 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:39:59,390 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:39:59,400 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:39:59,406 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:39:59,451 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-27 19:48:07 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41579)
+[2015-03-27 19:48:07 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41580)
+[2015-03-27 19:48:07 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41581)
+[2015-03-27 19:48:07 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41582)
+[2015-03-27 19:48:07 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41583)
+[2015-03-27 19:48:07 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41584)
+[2015-03-27 19:48:07 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41585)
+[2015-03-27 19:48:07 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41586)
+[2015-03-27 19:48:07 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41578)
+2015-03-27 19:48:08,766 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:48:08,767 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:48:08,790 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:48:08,817 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:48:08,831 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:48:08,874 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:48:08,889 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:48:08,919 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 19:48:08,943 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-27 20:48:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41588)
+[2015-03-27 20:48:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41589)
+[2015-03-27 20:48:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41590)
+[2015-03-27 20:48:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41591)
+[2015-03-27 20:48:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41592)
+[2015-03-27 20:48:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41593)
+[2015-03-27 20:48:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41594)
+[2015-03-27 20:48:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41595)
+[2015-03-27 20:48:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41596)
+2015-03-27 20:48:57,639 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 20:48:57,656 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 20:48:57,701 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 20:48:57,804 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 20:48:57,945 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 20:48:57,974 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 20:48:58,011 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 20:48:58,054 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 20:48:58,057 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-27 21:49:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41613)
+[2015-03-27 21:49:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41614)
+[2015-03-27 21:49:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41615)
+[2015-03-27 21:49:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41616)
+[2015-03-27 21:49:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41617)
+[2015-03-27 21:49:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41618)
+[2015-03-27 21:49:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41619)
+[2015-03-27 21:49:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41620)
+[2015-03-27 21:49:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41621)
+2015-03-27 21:49:45,131 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 21:49:45,187 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 21:49:45,210 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 21:49:45,399 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 21:49:45,454 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 21:49:45,462 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 21:49:45,479 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 21:49:45,498 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 21:49:45,509 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-27 23:38:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41638)
+[2015-03-27 23:38:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41639)
+[2015-03-27 23:38:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41640)
+[2015-03-27 23:38:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41641)
+[2015-03-27 23:38:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41642)
+[2015-03-27 23:38:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41643)
+[2015-03-27 23:38:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41644)
+[2015-03-27 23:38:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41645)
+[2015-03-27 23:38:53 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41646)
+2015-03-27 23:38:54,391 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 23:38:54,394 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 23:38:54,500 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 23:38:54,571 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 23:38:54,620 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 23:38:54,651 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 23:38:54,678 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 23:38:54,679 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-27 23:38:54,716 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 00:39:41 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41648)
+[2015-03-28 00:39:41 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41649)
+[2015-03-28 00:39:41 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41650)
+[2015-03-28 00:39:41 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41651)
+[2015-03-28 00:39:41 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41652)
+[2015-03-28 00:39:41 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41653)
+[2015-03-28 00:39:41 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41654)
+[2015-03-28 00:39:41 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41655)
+[2015-03-28 00:39:41 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41656)
+2015-03-28 00:39:42,982 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 00:39:42,984 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 00:39:43,009 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 00:39:43,011 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 00:39:43,035 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 00:39:43,044 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 00:39:43,048 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 00:39:43,107 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 00:39:43,114 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 02:28:29 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41664)
+[2015-03-28 02:28:29 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41665)
+[2015-03-28 02:28:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41666)
+[2015-03-28 02:28:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41667)
+[2015-03-28 02:28:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41668)
+[2015-03-28 02:28:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41669)
+[2015-03-28 02:28:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41670)
+[2015-03-28 02:28:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41662)
+[2015-03-28 02:28:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41663)
+2015-03-28 02:28:31,057 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 02:28:31,092 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 02:28:31,104 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 02:28:31,224 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 02:28:31,303 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 02:28:31,310 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 02:28:31,326 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 02:28:31,350 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 02:28:31,370 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 04:17:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41672)
+[2015-03-28 04:17:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41673)
+[2015-03-28 04:17:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41674)
+[2015-03-28 04:17:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41675)
+[2015-03-28 04:17:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41676)
+[2015-03-28 04:17:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41677)
+[2015-03-28 04:17:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41678)
+[2015-03-28 04:17:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41679)
+[2015-03-28 04:17:17 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41680)
+2015-03-28 04:17:18,417 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 04:17:18,420 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 04:17:18,598 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 04:17:18,783 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 04:17:18,819 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 04:17:18,855 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 04:17:18,881 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 04:17:18,890 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 04:17:18,894 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 05:33:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41682)
+[2015-03-28 05:33:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41683)
+[2015-03-28 05:33:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41684)
+[2015-03-28 05:33:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41685)
+[2015-03-28 05:33:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41686)
+[2015-03-28 05:33:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41687)
+[2015-03-28 05:33:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41688)
+[2015-03-28 05:33:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41689)
+[2015-03-28 05:33:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41690)
+2015-03-28 05:33:06,934 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 05:33:06,949 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 05:33:07,033 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 05:33:07,062 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 05:33:07,178 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 05:33:07,230 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 05:33:07,256 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 05:33:07,267 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 05:33:07,267 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 07:21:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41696)
+[2015-03-28 07:21:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41697)
+[2015-03-28 07:21:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41698)
+[2015-03-28 07:21:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41699)
+[2015-03-28 07:21:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41700)
+[2015-03-28 07:21:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41701)
+[2015-03-28 07:21:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41702)
+[2015-03-28 07:21:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41703)
+[2015-03-28 07:21:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41695)
+2015-03-28 07:21:55,989 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 07:21:55,989 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 07:21:56,038 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 07:21:56,064 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 07:21:56,149 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 07:21:56,230 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 07:21:56,252 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 07:21:56,266 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 07:21:56,282 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 08:22:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41712)
+[2015-03-28 08:22:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41713)
+[2015-03-28 08:22:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41705)
+[2015-03-28 08:22:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41706)
+[2015-03-28 08:22:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41707)
+[2015-03-28 08:22:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41708)
+[2015-03-28 08:22:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41709)
+[2015-03-28 08:22:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41710)
+[2015-03-28 08:22:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41711)
+2015-03-28 08:22:44,082 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 08:22:44,101 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 08:22:44,138 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 08:22:44,170 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 08:22:44,260 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 08:22:44,273 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 08:22:44,305 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 08:22:44,310 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 08:22:44,320 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 09:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41715)
+[2015-03-28 09:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41716)
+[2015-03-28 09:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41717)
+[2015-03-28 09:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41718)
+[2015-03-28 09:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41719)
+[2015-03-28 09:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41720)
+[2015-03-28 09:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41721)
+[2015-03-28 09:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41722)
+[2015-03-28 09:23:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41723)
+2015-03-28 09:23:31,817 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 09:23:31,829 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 09:23:31,836 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 09:23:31,992 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 09:23:32,039 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 09:23:32,087 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 09:23:32,113 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 09:23:32,134 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 09:23:32,156 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 10:54:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41728)
+[2015-03-28 10:54:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41729)
+[2015-03-28 10:54:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41730)
+[2015-03-28 10:54:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41731)
+[2015-03-28 10:54:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41732)
+[2015-03-28 10:54:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41733)
+[2015-03-28 10:54:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41725)
+[2015-03-28 10:54:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41726)
+[2015-03-28 10:54:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41727)
+2015-03-28 10:54:19,858 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 10:54:19,872 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 10:54:19,880 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 10:54:19,970 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 10:54:20,005 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 10:54:20,011 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 10:54:20,036 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 10:54:20,046 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 10:54:20,074 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 12:10:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41735)
+[2015-03-28 12:10:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41736)
+[2015-03-28 12:10:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41737)
+[2015-03-28 12:10:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41738)
+[2015-03-28 12:10:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41739)
+[2015-03-28 12:10:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41740)
+[2015-03-28 12:10:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41741)
+[2015-03-28 12:10:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41742)
+[2015-03-28 12:10:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41743)
+2015-03-28 12:10:07,848 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 12:10:07,898 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 12:10:07,953 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 12:10:08,068 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 12:10:08,145 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 12:10:08,156 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 12:10:08,178 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 12:10:08,193 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 12:10:08,196 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 13:25:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41745)
+[2015-03-28 13:25:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41746)
+[2015-03-28 13:25:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41747)
+[2015-03-28 13:25:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41748)
+[2015-03-28 13:25:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41749)
+[2015-03-28 13:25:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41750)
+[2015-03-28 13:25:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41751)
+[2015-03-28 13:25:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41752)
+[2015-03-28 13:25:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41753)
+2015-03-28 13:25:55,913 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 13:25:55,932 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 13:25:55,949 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 13:25:55,951 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 13:25:56,053 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 13:25:56,061 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 13:25:56,062 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 13:25:56,086 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 13:25:56,103 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 15:11:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41760)
+[2015-03-28 15:11:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41761)
+[2015-03-28 15:11:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41762)
+[2015-03-28 15:11:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41763)
+[2015-03-28 15:11:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41755)
+[2015-03-28 15:11:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41756)
+[2015-03-28 15:11:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41757)
+[2015-03-28 15:11:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41758)
+[2015-03-28 15:11:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41759)
+2015-03-28 15:11:43,651 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 15:11:43,683 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 15:11:43,699 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 15:11:43,838 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 15:11:43,900 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 15:11:43,907 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 15:11:43,919 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 15:11:43,940 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 15:11:43,953 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 16:27:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41766)
+[2015-03-28 16:27:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41767)
+[2015-03-28 16:27:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41768)
+[2015-03-28 16:27:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41769)
+[2015-03-28 16:27:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41770)
+[2015-03-28 16:27:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41771)
+[2015-03-28 16:27:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41772)
+[2015-03-28 16:27:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41773)
+[2015-03-28 16:27:30 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41774)
+2015-03-28 16:27:31,776 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 16:27:31,861 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 16:27:31,874 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 16:27:31,899 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 16:27:31,966 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 16:27:31,997 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 16:27:32,024 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 16:27:32,039 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 16:27:32,059 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 17:43:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41777)
+[2015-03-28 17:43:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41778)
+[2015-03-28 17:43:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41779)
+[2015-03-28 17:43:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41780)
+[2015-03-28 17:43:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41781)
+[2015-03-28 17:43:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41782)
+[2015-03-28 17:43:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41783)
+[2015-03-28 17:43:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41784)
+[2015-03-28 17:43:18 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41785)
+2015-03-28 17:43:19,821 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 17:43:19,853 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 17:43:19,876 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 17:43:19,880 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 17:43:19,907 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 17:43:19,938 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 17:43:19,975 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 17:43:20,006 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 17:43:20,030 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 19:32:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41802)
+[2015-03-28 19:32:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41803)
+[2015-03-28 19:32:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41804)
+[2015-03-28 19:32:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41805)
+[2015-03-28 19:32:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41806)
+[2015-03-28 19:32:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41807)
+[2015-03-28 19:32:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41808)
+[2015-03-28 19:32:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41809)
+[2015-03-28 19:32:06 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41810)
+2015-03-28 19:32:07,618 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 19:32:07,628 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 19:32:07,644 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 19:32:07,646 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 19:32:07,672 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 19:32:07,712 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 19:32:07,715 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 19:32:07,717 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 19:32:07,746 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 21:02:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41812)
+[2015-03-28 21:02:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41813)
+[2015-03-28 21:02:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41814)
+[2015-03-28 21:02:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41815)
+[2015-03-28 21:02:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41816)
+[2015-03-28 21:02:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41817)
+[2015-03-28 21:02:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41818)
+[2015-03-28 21:02:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41819)
+[2015-03-28 21:02:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41820)
+2015-03-28 21:02:55,426 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 21:02:55,443 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 21:02:55,448 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 21:02:55,465 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 21:02:55,465 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 21:02:55,497 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 21:02:55,499 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 21:02:55,521 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 21:02:55,570 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 22:03:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41837)
+[2015-03-28 22:03:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41838)
+[2015-03-28 22:03:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41839)
+[2015-03-28 22:03:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41840)
+[2015-03-28 22:03:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41841)
+[2015-03-28 22:03:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41842)
+[2015-03-28 22:03:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41843)
+[2015-03-28 22:03:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41844)
+[2015-03-28 22:03:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41845)
+2015-03-28 22:03:44,323 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 22:03:44,355 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 22:03:44,367 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 22:03:44,379 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 22:03:44,379 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 22:03:44,382 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 22:03:44,401 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 22:03:44,433 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 22:03:44,445 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-28 23:34:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41862)
+[2015-03-28 23:34:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41863)
+[2015-03-28 23:34:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41864)
+[2015-03-28 23:34:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41865)
+[2015-03-28 23:34:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41866)
+[2015-03-28 23:34:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41867)
+[2015-03-28 23:34:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41868)
+[2015-03-28 23:34:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41869)
+[2015-03-28 23:34:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41870)
+2015-03-28 23:34:33,472 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 23:34:33,473 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 23:34:33,756 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 23:34:33,827 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 23:34:33,946 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 23:34:33,946 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 23:34:33,960 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 23:34:33,977 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-28 23:34:34,010 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 01:23:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41872)
+[2015-03-29 01:23:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41873)
+[2015-03-29 01:23:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41874)
+[2015-03-29 01:23:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41875)
+[2015-03-29 01:23:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41876)
+[2015-03-29 01:23:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41877)
+[2015-03-29 01:23:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41878)
+[2015-03-29 01:23:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41879)
+[2015-03-29 01:23:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41880)
+2015-03-29 01:23:22,762 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 01:23:22,810 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 01:23:22,810 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 01:23:22,913 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 01:23:22,959 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 01:23:22,988 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 01:23:23,030 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 01:23:23,040 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 01:23:23,074 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 03:12:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41888)
+[2015-03-29 03:12:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41889)
+[2015-03-29 03:12:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41890)
+[2015-03-29 03:12:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41891)
+[2015-03-29 03:12:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41883)
+[2015-03-29 03:12:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41884)
+[2015-03-29 03:12:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41885)
+[2015-03-29 03:12:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41886)
+[2015-03-29 03:12:09 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41887)
+2015-03-29 03:12:10,978 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 03:12:10,984 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 03:12:10,994 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 03:12:11,044 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 03:12:11,123 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 03:12:11,135 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 03:12:11,206 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 03:12:11,211 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 03:12:11,232 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 05:00:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41893)
+[2015-03-29 05:00:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41894)
+[2015-03-29 05:00:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41895)
+[2015-03-29 05:00:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41896)
+[2015-03-29 05:00:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41897)
+[2015-03-29 05:00:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41898)
+[2015-03-29 05:00:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41899)
+[2015-03-29 05:00:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41900)
+[2015-03-29 05:00:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41901)
+2015-03-29 05:00:57,658 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 05:00:57,664 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 05:00:57,923 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 05:00:57,992 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 05:00:58,048 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 05:00:58,050 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 05:00:58,057 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 05:00:58,085 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 05:00:58,091 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 06:01:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41906)
+[2015-03-29 06:01:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41907)
+[2015-03-29 06:01:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41908)
+[2015-03-29 06:01:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41909)
+[2015-03-29 06:01:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41910)
+[2015-03-29 06:01:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41911)
+[2015-03-29 06:01:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41912)
+[2015-03-29 06:01:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41913)
+[2015-03-29 06:01:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41914)
+2015-03-29 06:01:45,789 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 06:01:45,917 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 06:01:45,919 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 06:01:46,116 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 06:01:46,153 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 06:01:46,167 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 06:01:46,176 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 06:01:46,181 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 06:01:46,189 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 07:02:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41920)
+[2015-03-29 07:02:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41921)
+[2015-03-29 07:02:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41922)
+[2015-03-29 07:02:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41923)
+[2015-03-29 07:02:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41924)
+[2015-03-29 07:02:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41916)
+[2015-03-29 07:02:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41917)
+[2015-03-29 07:02:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41918)
+[2015-03-29 07:02:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41919)
+2015-03-29 07:02:34,087 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 07:02:34,111 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 07:02:34,111 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 07:02:34,113 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 07:02:34,124 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 07:02:34,141 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 07:02:34,156 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 07:02:34,176 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 07:02:34,199 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 08:03:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41926)
+[2015-03-29 08:03:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41927)
+[2015-03-29 08:03:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41928)
+[2015-03-29 08:03:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41929)
+[2015-03-29 08:03:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41930)
+[2015-03-29 08:03:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41931)
+[2015-03-29 08:03:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41932)
+[2015-03-29 08:03:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41933)
+[2015-03-29 08:03:20 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41934)
+2015-03-29 08:03:22,031 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 08:03:22,032 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 08:03:22,064 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 08:03:22,065 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 08:03:22,150 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 08:03:22,152 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 08:03:22,200 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 08:03:22,233 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 08:03:22,240 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 09:04:08 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41936)
+[2015-03-29 09:04:08 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41937)
+[2015-03-29 09:04:08 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41938)
+[2015-03-29 09:04:08 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41939)
+[2015-03-29 09:04:08 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41940)
+[2015-03-29 09:04:08 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41941)
+[2015-03-29 09:04:08 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41942)
+[2015-03-29 09:04:08 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41943)
+[2015-03-29 09:04:08 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41944)
+2015-03-29 09:04:09,957 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 09:04:09,999 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 09:04:10,012 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 09:04:10,015 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 09:04:10,020 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 09:04:10,086 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 09:04:10,132 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 09:04:10,133 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 09:04:10,139 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 10:04:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41952)
+[2015-03-29 10:04:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41953)
+[2015-03-29 10:04:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41954)
+[2015-03-29 10:04:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41955)
+[2015-03-29 10:04:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41956)
+[2015-03-29 10:04:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41957)
+[2015-03-29 10:04:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41949)
+[2015-03-29 10:04:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41950)
+[2015-03-29 10:04:56 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41951)
+2015-03-29 10:04:57,584 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 10:04:57,596 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 10:04:57,708 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 10:04:57,902 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 10:04:57,931 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 10:04:57,959 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 10:04:58,002 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 10:04:58,022 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 10:04:58,064 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 11:20:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41959)
+[2015-03-29 11:20:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41960)
+[2015-03-29 11:20:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41961)
+[2015-03-29 11:20:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41962)
+[2015-03-29 11:20:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41963)
+[2015-03-29 11:20:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41964)
+[2015-03-29 11:20:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41965)
+[2015-03-29 11:20:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41966)
+[2015-03-29 11:20:44 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41967)
+2015-03-29 11:20:45,950 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 11:20:46,005 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 11:20:46,049 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 11:20:46,053 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 11:20:46,075 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 11:20:46,081 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 11:20:46,102 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 11:20:46,142 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 11:20:46,148 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 13:09:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41969)
+[2015-03-29 13:09:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41970)
+[2015-03-29 13:09:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41971)
+[2015-03-29 13:09:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41972)
+[2015-03-29 13:09:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41973)
+[2015-03-29 13:09:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41974)
+[2015-03-29 13:09:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41975)
+[2015-03-29 13:09:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41976)
+[2015-03-29 13:09:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41977)
+2015-03-29 13:09:33,704 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:09:33,730 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:09:33,739 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:09:33,752 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:09:33,814 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:09:33,868 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:09:33,901 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:09:33,935 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:09:33,964 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 13:49:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41984)
+[2015-03-29 13:49:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41985)
+[2015-03-29 13:49:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41986)
+[2015-03-29 13:49:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41987)
+[2015-03-29 13:49:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41988)
+[2015-03-29 13:49:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41989)
+[2015-03-29 13:49:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41981)
+[2015-03-29 13:49:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41982)
+[2015-03-29 13:49:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41983)
+2015-03-29 13:49:46,145 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:49:46,186 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:49:46,192 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:49:46,275 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:49:46,279 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:49:46,340 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:49:46,446 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:49:46,497 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 13:49:46,628 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 14:46:49 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41996)
+[2015-03-29 14:46:49 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41997)
+[2015-03-29 14:46:49 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41998)
+[2015-03-29 14:46:49 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:41999)
+[2015-03-29 14:46:49 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42000)
+[2015-03-29 14:46:49 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42001)
+[2015-03-29 14:46:49 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42002)
+[2015-03-29 14:46:49 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42004)
+[2015-03-29 14:46:49 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42005)
+2015-03-29 14:46:51,697 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 14:46:51,697 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 14:46:51,698 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 14:46:51,711 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 14:46:51,711 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 14:46:51,711 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 14:46:51,718 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 14:46:51,733 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 14:46:51,752 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 16:38:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42235)
+[2015-03-29 16:38:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42230)
+[2015-03-29 16:38:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42231)
+[2015-03-29 16:38:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42232)
+[2015-03-29 16:38:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42228)
+[2015-03-29 16:38:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42234)
+[2015-03-29 16:38:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42233)
+[2015-03-29 16:38:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42236)
+[2015-03-29 16:38:32 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42229)
+2015-03-29 16:38:33,990 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 16:38:33,990 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 16:38:34,002 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 16:38:34,021 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 16:38:34,108 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 16:38:34,173 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 16:38:34,200 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 16:38:34,208 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 16:38:34,225 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 17:26:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42323)
+[2015-03-29 17:26:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42324)
+[2015-03-29 17:26:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42325)
+[2015-03-29 17:26:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42326)
+[2015-03-29 17:26:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42327)
+[2015-03-29 17:26:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42328)
+[2015-03-29 17:26:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42329)
+[2015-03-29 17:26:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42330)
+[2015-03-29 17:26:05 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42331)
+2015-03-29 17:26:08,187 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 17:26:08,189 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 17:26:08,196 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 17:26:08,229 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 17:26:08,256 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 17:26:08,286 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 17:26:08,336 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 17:26:08,385 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 17:26:08,393 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 18:50:47 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42336)
+[2015-03-29 18:50:47 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42337)
+[2015-03-29 18:50:47 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42338)
+[2015-03-29 18:50:47 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42339)
+[2015-03-29 18:50:47 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42340)
+[2015-03-29 18:50:47 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42341)
+[2015-03-29 18:50:47 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42342)
+[2015-03-29 18:50:47 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42343)
+[2015-03-29 18:50:47 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42335)
+2015-03-29 18:50:49,201 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 18:50:49,201 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 18:50:49,233 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 18:50:49,236 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 18:50:49,270 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 18:50:49,273 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 18:50:49,277 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 18:50:49,899 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 18:50:49,920 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 19:18:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42569)
+[2015-03-29 19:18:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42570)
+[2015-03-29 19:18:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42571)
+[2015-03-29 19:18:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42572)
+[2015-03-29 19:18:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42573)
+[2015-03-29 19:18:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42574)
+[2015-03-29 19:18:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42575)
+[2015-03-29 19:18:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42576)
+[2015-03-29 19:18:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42577)
+2015-03-29 19:18:44,781 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 19:18:44,791 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 19:18:44,799 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 19:18:44,811 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 19:18:44,846 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 19:18:44,857 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 19:18:44,862 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 19:18:44,864 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 19:18:44,867 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 20:27:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42579)
+[2015-03-29 20:27:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42580)
+[2015-03-29 20:27:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42581)
+[2015-03-29 20:27:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42582)
+[2015-03-29 20:27:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42583)
+[2015-03-29 20:27:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42584)
+[2015-03-29 20:27:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42585)
+[2015-03-29 20:27:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42586)
+[2015-03-29 20:27:21 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42587)
+2015-03-29 20:27:23,055 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 20:27:23,055 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 20:27:23,110 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 20:27:23,111 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 20:27:23,120 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 20:27:23,128 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 20:27:23,128 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 20:27:23,129 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 20:27:23,196 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-29 22:13:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42635)
+[2015-03-29 22:13:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42636)
+[2015-03-29 22:13:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42637)
+[2015-03-29 22:13:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42638)
+[2015-03-29 22:13:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42639)
+[2015-03-29 22:13:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42640)
+[2015-03-29 22:13:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42641)
+[2015-03-29 22:13:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42642)
+[2015-03-29 22:13:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42643)
+2015-03-29 22:13:28,826 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 22:13:28,853 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 22:13:28,854 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 22:13:28,869 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 22:13:28,882 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 22:13:28,889 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 22:13:28,918 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 22:13:28,928 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-29 22:13:28,952 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 00:02:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42658)
+[2015-03-30 00:02:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42659)
+[2015-03-30 00:02:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42660)
+[2015-03-30 00:02:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42661)
+[2015-03-30 00:02:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42662)
+[2015-03-30 00:02:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42663)
+[2015-03-30 00:02:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42664)
+[2015-03-30 00:02:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42665)
+[2015-03-30 00:02:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42666)
+2015-03-30 00:02:14,101 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 00:02:14,115 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 00:02:14,125 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 00:02:14,137 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 00:02:14,158 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 00:02:14,172 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 00:02:14,183 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 00:02:14,200 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 00:02:14,206 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 01:02:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42677)
+[2015-03-30 01:02:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42678)
+[2015-03-30 01:02:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42679)
+[2015-03-30 01:02:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42680)
+[2015-03-30 01:02:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42681)
+[2015-03-30 01:02:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42682)
+[2015-03-30 01:02:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42683)
+[2015-03-30 01:02:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42684)
+[2015-03-30 01:02:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42685)
+2015-03-30 01:02:58,636 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 01:02:58,818 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 01:02:58,867 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 01:02:58,903 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 01:02:58,913 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 01:02:58,930 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 01:02:58,962 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 01:02:59,001 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 01:02:59,018 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 02:51:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42688)
+[2015-03-30 02:51:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42689)
+[2015-03-30 02:51:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42690)
+[2015-03-30 02:51:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42691)
+[2015-03-30 02:51:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42692)
+[2015-03-30 02:51:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42693)
+[2015-03-30 02:51:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42694)
+[2015-03-30 02:51:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42695)
+[2015-03-30 02:51:42 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42696)
+2015-03-30 02:51:43,745 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 02:51:43,792 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 02:51:43,796 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 02:51:43,807 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 02:51:43,822 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 02:51:43,828 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 02:51:43,856 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 02:51:43,877 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 02:51:43,909 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 04:40:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42698)
+[2015-03-30 04:40:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42699)
+[2015-03-30 04:40:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42700)
+[2015-03-30 04:40:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42701)
+[2015-03-30 04:40:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42702)
+[2015-03-30 04:40:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42703)
+[2015-03-30 04:40:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42704)
+[2015-03-30 04:40:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42705)
+[2015-03-30 04:40:27 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42706)
+2015-03-30 04:40:28,383 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 04:40:28,384 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 04:40:28,407 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 04:40:28,477 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 04:40:28,490 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 04:40:28,546 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 04:40:28,586 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 04:40:28,627 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 04:40:28,674 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 05:41:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42708)
+[2015-03-30 05:41:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42709)
+[2015-03-30 05:41:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42710)
+[2015-03-30 05:41:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42711)
+[2015-03-30 05:41:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42712)
+[2015-03-30 05:41:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42713)
+[2015-03-30 05:41:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42714)
+[2015-03-30 05:41:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42715)
+[2015-03-30 05:41:12 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42716)
+2015-03-30 05:41:13,947 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 05:41:13,978 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 05:41:13,983 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 05:41:14,153 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 05:41:14,360 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 05:41:14,380 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 05:41:14,384 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 05:41:14,388 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 05:41:14,395 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 07:29:58 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42720)
+[2015-03-30 07:29:58 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42721)
+[2015-03-30 07:29:58 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42722)
+[2015-03-30 07:29:58 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42723)
+[2015-03-30 07:29:58 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42724)
+[2015-03-30 07:29:58 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42725)
+[2015-03-30 07:29:58 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42726)
+[2015-03-30 07:29:58 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42727)
+[2015-03-30 07:29:58 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42728)
+2015-03-30 07:29:59,796 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 07:29:59,810 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 07:29:59,827 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 07:29:59,851 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 07:29:59,829 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 07:29:59,856 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 07:29:59,860 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 07:29:59,887 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 07:29:59,896 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 09:00:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42730)
+[2015-03-30 09:00:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42731)
+[2015-03-30 09:00:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42732)
+[2015-03-30 09:00:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42733)
+[2015-03-30 09:00:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42734)
+[2015-03-30 09:00:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42735)
+[2015-03-30 09:00:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42736)
+[2015-03-30 09:00:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42737)
+[2015-03-30 09:00:43 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42738)
+2015-03-30 09:00:45,190 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:00:45,195 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:00:45,220 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:00:44,667 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:00:44,680 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:00:44,720 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:00:44,738 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:00:44,779 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:00:44,831 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 09:46:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42740)
+[2015-03-30 09:46:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42741)
+[2015-03-30 09:46:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42742)
+[2015-03-30 09:46:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42743)
+[2015-03-30 09:46:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42744)
+[2015-03-30 09:46:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42745)
+[2015-03-30 09:46:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42746)
+[2015-03-30 09:46:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42747)
+[2015-03-30 09:46:54 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42748)
+2015-03-30 09:46:58,096 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:46:58,165 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:46:58,193 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:46:58,266 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:46:58,267 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:46:58,269 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:46:58,272 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:46:58,283 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 09:46:58,283 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 11:21:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42784)
+[2015-03-30 11:21:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42785)
+[2015-03-30 11:21:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42786)
+[2015-03-30 11:21:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42778)
+[2015-03-30 11:21:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42779)
+[2015-03-30 11:21:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42780)
+[2015-03-30 11:21:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42781)
+[2015-03-30 11:21:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42782)
+[2015-03-30 11:21:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42783)
+2015-03-30 11:21:27,452 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 11:21:27,466 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 11:21:27,482 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 11:21:27,494 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 11:21:27,496 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 11:21:27,552 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 11:21:27,561 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 11:21:27,607 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 11:21:27,608 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 12:46:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42951)
+[2015-03-30 12:46:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42952)
+[2015-03-30 12:46:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42953)
+[2015-03-30 12:46:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42954)
+[2015-03-30 12:46:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42955)
+[2015-03-30 12:46:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42956)
+[2015-03-30 12:46:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42957)
+[2015-03-30 12:46:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42958)
+[2015-03-30 12:46:57 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42959)
+2015-03-30 12:46:58,180 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 12:46:58,261 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 12:46:58,380 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 12:46:58,631 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 12:46:58,717 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 12:46:58,727 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 12:46:58,728 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 12:46:58,752 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 12:46:58,759 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 13:48:03 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42961)
+[2015-03-30 13:48:03 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42962)
+[2015-03-30 13:48:03 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42963)
+[2015-03-30 13:48:03 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42964)
+[2015-03-30 13:48:03 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42965)
+[2015-03-30 13:48:03 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42966)
+[2015-03-30 13:48:03 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42967)
+[2015-03-30 13:48:03 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42968)
+[2015-03-30 13:48:03 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42969)
+2015-03-30 13:48:05,106 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 13:48:05,114 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 13:48:05,119 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 13:48:05,137 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 13:48:05,190 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 13:48:05,191 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 13:48:05,216 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 13:48:05,233 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 13:48:05,247 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 14:16:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42976)
+[2015-03-30 14:16:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42977)
+[2015-03-30 14:16:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42978)
+[2015-03-30 14:16:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42979)
+[2015-03-30 14:16:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42980)
+[2015-03-30 14:16:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42972)
+[2015-03-30 14:16:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42973)
+[2015-03-30 14:16:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42974)
+[2015-03-30 14:16:25 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42975)
+2015-03-30 14:16:26,637 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:16:26,646 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:16:26,793 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:16:26,910 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:16:26,920 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:16:26,936 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:16:26,986 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:16:26,999 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:16:27,362 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 14:24:19 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42985)
+[2015-03-30 14:24:19 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42986)
+[2015-03-30 14:24:19 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42987)
+[2015-03-30 14:24:19 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42988)
+[2015-03-30 14:24:19 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42989)
+[2015-03-30 14:24:19 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42990)
+[2015-03-30 14:24:19 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42991)
+[2015-03-30 14:24:19 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42992)
+[2015-03-30 14:24:19 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42993)
+2015-03-30 14:24:20,715 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:24:20,723 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:24:20,766 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:24:20,795 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:24:20,864 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:24:20,958 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:24:20,974 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:24:20,990 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 14:24:20,999 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 15:25:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42994)
+[2015-03-30 15:25:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42995)
+[2015-03-30 15:25:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42996)
+[2015-03-30 15:25:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42997)
+[2015-03-30 15:25:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42998)
+[2015-03-30 15:25:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:42999)
+[2015-03-30 15:25:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43000)
+[2015-03-30 15:25:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43001)
+[2015-03-30 15:25:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43002)
+2015-03-30 15:25:05,393 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 15:25:05,427 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 15:25:05,503 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 15:25:05,507 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 15:25:05,700 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 15:25:05,711 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 15:25:05,740 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 15:25:05,745 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 15:25:05,749 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 16:18:38 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43008)
+[2015-03-30 16:18:38 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43009)
+[2015-03-30 16:18:38 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43010)
+[2015-03-30 16:18:38 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43011)
+[2015-03-30 16:18:38 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43012)
+[2015-03-30 16:18:38 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43013)
+[2015-03-30 16:18:38 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43014)
+[2015-03-30 16:18:38 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43015)
+[2015-03-30 16:18:38 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43007)
+2015-03-30 16:18:39,787 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 16:18:39,787 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 16:18:39,809 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 16:18:39,836 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 16:18:39,850 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 16:18:39,852 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 16:18:39,852 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 16:18:39,885 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 16:18:39,915 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 17:09:24 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43022)
+[2015-03-30 17:09:24 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43023)
+[2015-03-30 17:09:24 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43024)
+[2015-03-30 17:09:24 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43025)
+[2015-03-30 17:09:24 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43026)
+[2015-03-30 17:09:24 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43027)
+[2015-03-30 17:09:24 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43028)
+[2015-03-30 17:09:24 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43029)
+[2015-03-30 17:09:24 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43030)
+2015-03-30 17:09:26,627 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 17:09:26,669 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 17:09:26,678 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 17:09:26,698 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 17:09:26,698 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 17:09:26,705 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 17:09:26,782 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 17:09:26,837 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 17:09:26,892 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 18:24:34 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43159)
+[2015-03-30 18:24:34 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43160)
+[2015-03-30 18:24:34 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43161)
+[2015-03-30 18:24:34 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43162)
+[2015-03-30 18:24:34 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43163)
+[2015-03-30 18:24:34 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43164)
+[2015-03-30 18:24:34 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43165)
+[2015-03-30 18:24:34 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43166)
+[2015-03-30 18:24:34 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43167)
+2015-03-30 18:24:36,518 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 18:24:36,518 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 18:24:36,519 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 18:24:36,526 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 18:24:36,518 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 18:24:36,557 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 18:24:36,598 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 18:24:36,651 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 18:24:36,654 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 19:12:50 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43278)
+[2015-03-30 19:12:50 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43279)
+[2015-03-30 19:12:50 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43280)
+[2015-03-30 19:12:50 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43281)
+[2015-03-30 19:12:50 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43282)
+[2015-03-30 19:12:50 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43283)
+[2015-03-30 19:12:50 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43284)
+[2015-03-30 19:12:50 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43285)
+[2015-03-30 19:12:50 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43286)
+2015-03-30 19:12:53,203 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 19:12:53,209 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 19:12:53,215 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 19:12:53,215 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 19:12:53,217 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 19:12:53,233 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 19:12:53,251 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 19:12:53,254 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 19:12:53,266 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 20:14:36 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43299)
+[2015-03-30 20:14:36 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43300)
+[2015-03-30 20:14:36 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43301)
+[2015-03-30 20:14:36 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43304)
+[2015-03-30 20:14:36 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43305)
+[2015-03-30 20:14:36 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43306)
+[2015-03-30 20:14:36 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43308)
+[2015-03-30 20:14:36 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43309)
+[2015-03-30 20:14:36 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43310)
+2015-03-30 20:14:37,932 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 20:14:37,932 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 20:14:37,988 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 20:14:38,065 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 20:14:38,065 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 20:14:37,692 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 20:14:37,723 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 20:14:37,731 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 20:14:37,742 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 21:09:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43341)
+[2015-03-30 21:09:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43342)
+[2015-03-30 21:09:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43343)
+[2015-03-30 21:09:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43344)
+[2015-03-30 21:09:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43345)
+[2015-03-30 21:09:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43346)
+[2015-03-30 21:09:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43347)
+[2015-03-30 21:09:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43348)
+[2015-03-30 21:09:04 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43349)
+2015-03-30 21:09:06,879 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 21:09:06,879 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 21:09:06,932 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 21:09:06,932 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 21:09:06,947 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 21:09:06,963 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 21:09:06,970 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 21:09:06,972 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 21:09:07,125 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-30 22:34:15 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43354)
+[2015-03-30 22:34:15 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43355)
+[2015-03-30 22:34:15 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43356)
+[2015-03-30 22:34:15 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43357)
+[2015-03-30 22:34:15 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43358)
+[2015-03-30 22:34:15 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43359)
+[2015-03-30 22:34:15 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43360)
+[2015-03-30 22:34:15 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43361)
+[2015-03-30 22:34:15 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43362)
+2015-03-30 22:34:18,176 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 22:34:18,185 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 22:34:18,190 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 22:34:18,196 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 22:34:18,210 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 22:34:18,243 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 22:34:18,267 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 22:34:18,312 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-30 22:34:18,344 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-03-31 00:07:16 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43439)
+[2015-03-31 00:07:16 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43440)
+[2015-03-31 00:07:16 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43441)
+[2015-03-31 00:07:16 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43442)
+[2015-03-31 00:07:16 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43443)
+[2015-03-31 00:07:16 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43444)
+[2015-03-31 00:07:16 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43445)
+[2015-03-31 00:07:16 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43446)
+[2015-03-31 00:07:16 -0400] [38938] [CRITICAL] WORKER TIMEOUT (pid:43447)
+2015-03-31 00:07:19,180 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-31 00:07:19,209 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-31 00:07:19,249 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-31 00:07:19,288 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-31 00:07:19,302 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-31 00:07:19,339 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-31 00:07:19,355 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-31 00:07:19,364 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-03-31 00:07:19,391 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
