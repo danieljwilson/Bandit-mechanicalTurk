@@ -2672,3 +2672,948 @@ OperationalError: (OperationalError) (1050, "Table 'turkdemo04' already exists")
 2015-03-24 13:20:35,608 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
 2015-03-24 13:20:35,635 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
 2015-03-24 13:20:35,650 /Users/djw/anaconda/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-04-02 14:50:55 -0400] [7692] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+[2015-04-02 14:50:55 -0400] [7693] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+[2015-04-02 14:50:55 -0400] [7694] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+[2015-04-02 14:50:55 -0400] [7695] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+[2015-04-02 14:50:55 -0400] [7696] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+[2015-04-02 14:50:55 -0400] [7697] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+[2015-04-02 14:50:55 -0400] [7698] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+[2015-04-02 14:50:55 -0400] [7699] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+[2015-04-02 14:50:55 -0400] [7700] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
+Traceback (most recent call last):
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/experiment.py", line 85, in <module>
+    init_db()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/psiturk/db.py", line 23, in init_db
+    Base.metadata.create_all(bind=engine)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/sql/schema.py", line 3352, in create_all
+    tables=tables)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1616, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "/Users/djw/anaconda/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1609, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1799, in contextual_connect
+    self.pool.connect(),
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 338, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 440, in checkout
+    rec = pool._do_get()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 961, in _do_get
+    return self._create_connection()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 285, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 411, in __init__
+    self.connection = self.__connect()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+    connection = self.__pool._creator()
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 96, in connect
+    connection_invalidated=invalidated
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 90, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 377, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/djw/anaconda/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (OperationalError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)") None None
